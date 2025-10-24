@@ -1,6 +1,6 @@
 # Laboratorio de Hardening de Servidor Apache
 
-Este proyecto documenta el proceso completo de instalación, configuración y securización de un servidor web Apache en un entorno Linux (Ubuntu Server), partiendo de un **aprovisionamiento inicial automatizado con Bash**.
+Este proyecto documenta el proceso completo de instalación, configuración y securización de un servidor web Apache en un entorno Linux (Ubuntu), partiendo de un **aprovisionamiento inicial automatizado con Bash**.
 
 El objetivo es aplicar un enfoque de **defensa en profundidad**, implementando múltiples capas de seguridad para proteger el servidor y las aplicaciones web alojadas en él.
 
