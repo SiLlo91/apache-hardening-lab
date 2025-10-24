@@ -1,0 +1,8 @@
+# Ignorar ficheros del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Ignorar carpetas comunes de configuración/cache
+.vscode/
+.obsidian/
+node_modules/
