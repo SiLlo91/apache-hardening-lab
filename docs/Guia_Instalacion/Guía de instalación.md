@@ -43,11 +43,11 @@ Tras ejecutar el script, la correcta creación del fichero y la asignación de p
 
 
 <p align="center">
-    <img src="Imagenes/verificacion_ficheros_y_permisos.png" width="600">
+    <img src="imagenes/verificacion_ficheros_y_permisos.png" width="1000">
 </p>
 
 <p align="center">
-    <img src="Imagenes/Apache_levantado_plantilla.png" width="1000">
+    <img src="imagenes/Apache_levantado_plantilla.png" width="1000">
 </p>
 <p align="center">
     <img src="Imagenes/H1_Apache.png" width="1000">
@@ -151,12 +151,12 @@ Como comprobación hacemos dos pruebas:
 1. Recargamos unas cuantas veces nuestra página y nos manda a la página de `Forbbiden`:
 
 <p align="center">
-    <img src="Imagenes/Forbidden_tras_varias_peticiones.png" width="1000">
+    <img src="imagenes/Forbidden_tras_varias_peticiones.png" width="1000">
 </p>
 
 2. Lanzamos la herramienta `dirb` que nos devuelve un código 403.
 <p align="center">
-    <img src="Imagenes/dirb_a_servidor.png" width="1000">
+    <img src="imagenes/dirb_a_servidor.png" width="1000">
 </p>
 
 
@@ -166,7 +166,7 @@ Todo este tráfico lo vemos recogido en el archivo `error.log`  . Que será muy 
 sudo tail -f /var/log/apache2/error.log
 ```
 <p align="center">
-    <img src="Imagenes/error_log.png" width="1000">
+    <img src="imagenes/error_log.png" width="1000">
 </p>
 
 
@@ -193,11 +193,11 @@ Require valid-user
 ```
 
 <p align="center">
-    <img src="Imagenes/Peticion_credenciales.png" width="1000">
+    <img src="imagenes/Peticion_credenciales.png" width="1000">
 </p>
 
 <p align="center">
-    <img src="Imagenes/Acceso_tras_verificacion.png" width="1000">
+    <img src="imagenes/Acceso_tras_verificacion.png" width="1000">
 </p>
 
 ### 3.3. Securización de Subida de Archivos
@@ -221,7 +221,7 @@ sudo apt-get install libapache2-mod-security2
 sudo systemctl restart apache2
 ```
 <p align="center">
-    <img src="Imagenes/Panel_subida_archivos.png" width="1000">
+    <img src="imagenes/Panel_subida_archivos.png" width="1000">
 </p>
 
 
@@ -264,13 +264,13 @@ if ($fileSize > $maxSize) {
 En caso de no cumplir con la whitelist o con el tamaño que hemos reglamentado el usuario vera este mensaje:
 
 <p align="center">
-    <img src="Imagenes/Output_incumplimiento_whitelist.png" width="1000">
+    <img src="imagenes/Output_incumplimiento_whitelist.png" width="1000">
 </p>
 
 
 Por el contrario si cumple con las reglas vera:
 <p align="center">
-    <img src="Imagenes/Output_cumplimiento_whitelist.png" width="1000">
+    <img src="imagenes/Output_cumplimiento_whitelist.png" width="1000">
 </p>
 
 
@@ -279,7 +279,7 @@ Por el contrario si cumple con las reglas vera:
 Finalmente, se ha securizado el directorio donde se almacenan los ficheros para impedir que un atacante pueda explorar su contenido.
 
 <p align="center">
-    <img src="Imagenes/Directorio_uploads.png" width="1000">
+    <img src="imagenes/Directorio_uploads.png" width="1000">
 </p>
 
 
@@ -294,7 +294,7 @@ Options -Indexes
 La efectividad de esta regla se apoya en la activación del módulo `mod_rewrite` y la configuración de `AllowOverride All` en el Virtual Host del servidor. Como resultado, cualquier intento de acceder directamente a la carpeta `/uploads` devuelve un error 403 (Forbidden).
 
 <p align="center">
-    <img src="Imagenes/Forbidden_acceso_uploads.png" width="1000">
+    <img src="imagenes/Forbidden_acceso_uploads.png" width="1000">
 </p>
 
 ### 3.4. Implementación de Web Application Firewall (WAF) con `mod_security`
@@ -304,7 +304,7 @@ Como capa de defensa principal contra ataques a la aplicación web (XSS, SQLi, e
 Comenzamos viendo que tenemos un panel vulnerable a xss.
 
 <p align="center">
-    <img src="Imagenes/Panel_vulnerable_XSS.png" width="1000">
+    <img src="imagenes/Panel_vulnerable_XSS.png" width="1000">
 </p>
 
 #### Proceso de Implementación
@@ -363,9 +363,9 @@ IncludeOptional /etc/modsecurity/coreruleset/rules/*.conf
 
 Tras la implementación del WAF hemos protegido contra la vulnerabilidad XSS como podemos comprobar en la siguiente imágenes:
 <p align="center">
-    <img src="Imagenes/Forbidden_ataque_XSS.png" width="1000">
+    <img src="imagenes/Forbidden_ataque_XSS.png" width="1000">
 </p>
 
 <p align="center">
-    <img src="Imagenes/Forbidden_ataque_XSS_1=1.png" width="1000">
+    <img src="imagenes/Forbidden_ataque_XSS_1=1.png" width="1000">
 </p>
