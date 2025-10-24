@@ -13,10 +13,11 @@ El objetivo es establecer una base sólida y automatizada.
 
 Para garantizar una instalación limpia y repetible, gran parte del proceso se ha automatizado en un script de Bash.
 
-[Ir al script de instalación inicial](../../scripts/script_de_instalacion_inicial.md)
 
-[[Script_instalacion_inicial]]
-* **Script de instalación:** [`/scripts/script_de_instalacion_inicial`](../../scripts/script_de_instalacion_inicial)
+
+
+* **Script de instalación:** [`script_instalacion_inicial.sh`](./scripts/script_instalacion_inicial.sh)
+
 
 Este script realiza las siguientes acciones clave:
 
