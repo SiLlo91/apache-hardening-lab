@@ -16,7 +16,7 @@ Para garantizar una instalación limpia y repetible, gran parte del proceso se h
 
 
 
-* **Script de instalación:** [Script de Instalación Inicial](../../scripts/Script_instalacion_inicial.md)
+* **[Script de Instalación Inicial](../../scripts/Script_instalacion_inicial.md)**
 
 
 Este script realiza las siguientes acciones clave:
