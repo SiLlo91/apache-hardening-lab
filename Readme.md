@@ -37,4 +37,4 @@ Para una guía detallada paso a paso de toda la implementación, incluyendo los 
 
 ## 📄 Agradecimientos y Fuente
 
-Este proyecto se ha realizado siguiendo las prácticas y utilizando fragmentos de código propuestos en el curso "Gestión y Securización de Servidores Web" impartido por Mario (El Pingüino del Mario) en la plataforma El Bunker. ¡Gracias por el excelente material!
+Este proyecto se ha realizado siguiendo las prácticas y utilizando fragmentos de código propuestos en el curso "Gestión y Securización de Servidores Web" impartido por Mario (El Pingüino del Mario) en la plataforma El Bunker.
