@@ -31,10 +31,7 @@ El objetivo es aplicar un enfoque de **defensa en profundidad**, implementando m
 
 Para una guía detallada paso a paso de toda la implementación, incluyendo los comandos utilizados, las configuraciones y las pruebas de verificación, consulta el siguiente documento:
 
-➡️ [Manual de Instalación y Configuración](./docs/Guia_Instalacion/Guía de instalación.md)
-[Manual de Instalación y Configuración](./docs/Guia_Instalacion/Gu%C3%ADa%20de%20instalaci%C3%B3n.md)
-
-**[Manual de Instalación y Configuración](./docs/Guía_de_instalacion/Guía_de_instalacion.md)**
+➡️ **[Manual de Instalación y Configuración](./docs/Guia_Instalacion/Gu%C3%ADa%20de%20instalaci%C3%B3n.md)**
 
 ---
 
