@@ -51,7 +51,7 @@ Tras ejecutar el script, la correcta creación del fichero y la asignación de p
     <img src="imagenes/Apache_levantado_plantilla.png" width="1000">
 </p>
 <p align="center">
-    <img src="Imagenes/H1_Apache.png" width="1000">
+    <img src="imagenes/H1_Apache.png" width="1000">
 </p>
 
 
