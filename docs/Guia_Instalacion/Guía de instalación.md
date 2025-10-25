@@ -157,7 +157,7 @@ Como comprobación hacemos dos pruebas:
 
 2. Lanzamos la herramienta `dirb` que nos devuelve un código 403.
 <p align="center">
-    <img src="imagenes/dirb_a_servidor.png" width="1000">
+    <img src="imagenes/Dirb_a_servidor.png" width="1000">
 </p>
 
 
