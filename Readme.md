@@ -8,7 +8,7 @@ El objetivo es añadir varias capas de seguridad para proteger el servidor y las
 
 ## 🛡️ Medidas de Seguridad y Proceso
 
-* **Aprovisionamiento Automatizado:** Se utilizó un script de Bash  ([Script de Instalación Inicial](scripts/Script_instalacion_inicial.md)) para la instalación inicial del servidor, asegurando un despliegue rápido y consistente.
+* **Aprovisionamiento Automatizado:** Se utilizó un ([Script](scripts/Script_instalacion_inicial.md))  de Bash para la instalación inicial del servidor. 
 * **Web Application Firewall (WAF):** Despliegue de `mod_security` con el **OWASP Core Rule Set (CRS)** para la detección y bloqueo de ataques como XSS y SQL Injection.
 * **Mitigación de Ataques de Fuerza Bruta/DoS:** Configuración de `mod_evasive` para bloquear automáticamente IPs con patrones de peticiones agresivas.
 * **Securización de Subida de Archivos:** Implementación de un script PHP con validación estricta de extensiones (whitelist) y tamaño máximo de fichero.
